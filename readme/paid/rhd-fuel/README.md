@@ -2,10 +2,8 @@
 
 ### Installation:
 
-
-<Steps>
-### Open the `config.lua` file and configure it to your liking.
-### Then, start in `server.cfg` like the code below:
+1. Open the `config.lua` file and configure it to your liking.
+2. Then, start in `server.cfg` like the code below:
 
 ```lua
 ensure ox_lib
@@ -15,7 +13,6 @@ ensure ox_inventory
 ensure interact
 ensure rhd_fuel
 ```
-</Steps>
 
 ### Dependencies:
 
