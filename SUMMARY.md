@@ -17,6 +17,6 @@
 
 ## 💚 Free Resources
 
-* [RHD Garage](free-resources/rhd-garage/README.md)
+* [🅿️ RHD Garage](free-resources/rhd-garage/README.md)
   * [📄 Client Functions](free-resources/rhd-garage/client-functions.md)
   * [📄 Server Functions](free-resources/rhd-garage/server-functions.md)
