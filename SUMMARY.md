@@ -1,20 +1,22 @@
 # Table of contents
 
-* [🏠 Home](README.md)
-  * [💵 Paid](readme/paid/README.md)
-    * [🛡️ RHD Safe Event](readme/paid/rhd-safe-event/README.md)
-      * [📄 Page](readme/paid/rhd-safe-event/page.md)
-      * [📄 Event](readme/paid/rhd-safe-event/event.md)
-    * [⛽ RHD Fuel](readme/paid/rhd-fuel/README.md)
-      * [📄 Client Functions](readme/paid/rhd-fuel/client-functions.md)
-    * [💰 RHD Shop Robbery](readme/paid/rhd-shop-robbery.md)
-    * [🍕 RHD Pizza Delivery](readme/paid/rhd-pizza-delivery.md)
-    * [🚀 RHD Nitrous](readme/paid/rhd-nitrous/README.md)
-      * [📄 Server Functions](readme/paid/rhd-nitrous/server-functions.md)
-      * [📄 Client Functions](readme/paid/rhd-nitrous/client-functions.md)
-    * [🛞 RHD Wheel Fitment Adjuster](readme/paid/rhd-wheel-fitment-adjuster/README.md)
-      * [📄 Server Functions](readme/paid/rhd-wheel-fitment-adjuster/server-functions.md)
-  * [💚 Free](readme/free/README.md)
-    * [RHD Garage](readme/free/rhd-garage/README.md)
-      * [📄 Client Functions](readme/free/rhd-garage/client-functions.md)
-      * [📄 Server Functions](readme/free/rhd-garage/server-functions.md)
+## 💵 Paid Resources
+
+* [🛡️ RHD Safe Event](README.md)
+  * [📄 Page](paid-resources/rhd-safe-event/page.md)
+  * [📄 Event](paid-resources/rhd-safe-event/event.md)
+* [⛽ RHD Fuel](paid-resources/rhd-fuel/README.md)
+  * [📄 Client Functions](paid-resources/rhd-fuel/client-functions.md)
+* [💰 RHD Shop Robbery](paid-resources/rhd-shop-robbery.md)
+* [🍕 RHD Pizza Delivery](paid-resources/rhd-pizza-delivery.md)
+* [🚀 RHD Nitrous](paid-resources/rhd-nitrous/README.md)
+  * [📄 Server Functions](paid-resources/rhd-nitrous/server-functions.md)
+  * [📄 Client Functions](paid-resources/rhd-nitrous/client-functions.md)
+* [🛞 RHD Wheel Fitment Adjuster](paid-resources/rhd-wheel-fitment-adjuster/README.md)
+  * [📄 Server Functions](paid-resources/rhd-wheel-fitment-adjuster/server-functions.md)
+
+## 💚 Free Resources
+
+* [RHD Garage](free-resources/rhd-garage/README.md)
+  * [📄 Client Functions](free-resources/rhd-garage/client-functions.md)
+  * [📄 Server Functions](free-resources/rhd-garage/server-functions.md)
