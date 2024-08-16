@@ -12,6 +12,8 @@
     * [🚀 RHD Nitrous](readme/paid/rhd-nitrous/README.md)
       * [📄 Server Functions](readme/paid/rhd-nitrous/server-functions.md)
       * [📄 Client Functions](readme/paid/rhd-nitrous/client-functions.md)
+    * [🛞 RHD Wheel Fitment Adjuster](readme/paid/rhd-wheel-fitment-adjuster/README.md)
+      * [📄 Server Functions](readme/paid/rhd-wheel-fitment-adjuster/server-functions.md)
   * [💚 Free](readme/free/README.md)
     * [RHD Garage](readme/free/rhd-garage/README.md)
       * [📄 Client Functions](readme/free/rhd-garage/client-functions.md)
