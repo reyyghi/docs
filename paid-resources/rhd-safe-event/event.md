@@ -25,7 +25,7 @@ event.triggerClient(name, source, args)
 ```
 
 * name: `string`&#x20;
-* source: `string | integer`&#x20;
+* source: `number` | `number[]`&#x20;
 * args?: `any`&#x20;
 
 ### TriggerServerEvent
