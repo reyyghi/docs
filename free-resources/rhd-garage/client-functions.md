@@ -10,6 +10,7 @@ exports.rhd_garage:openMenu(garageData)
   * label: `string`&#x20;
   * type: `string[]`&#x20;
   * spawnpoint: `vector3`&#x20;
+  * ignoreDist: `boolean`&#x20;
 
 ### Save Vehicle
 
