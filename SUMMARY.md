@@ -14,6 +14,8 @@
   * [📄 Client Functions](paid-resources/rhd-nitrous/client-functions.md)
 * [🛞 RHD Wheel Fitment Adjuster](paid-resources/rhd-wheel-fitment-adjuster/README.md)
   * [📄 Server Functions](paid-resources/rhd-wheel-fitment-adjuster/server-functions.md)
+* [☢️ RHD Radial Menu](paid-resources/rhd-radial-menu/README.md)
+  * [📄 Client Functions](paid-resources/rhd-radial-menu/client-functions.md)
 
 ## 💚 Free Resources
 

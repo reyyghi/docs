@@ -1,9 +1,9 @@
-# 📄 Page
+# 📄 Callback
 
 ### Create
 
 ```lua
-safeCB.new(name, cb)
+callback.new(name, cb)
 ```
 
 * name: `string`&#x20;
