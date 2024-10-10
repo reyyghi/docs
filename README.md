@@ -30,6 +30,9 @@ safe_event_obfus_ignore {
     'QBCore:Client:OnPlayerLoaded'
 }
 
+--- This is optional, use this if you don't want the module to automatically replace all event functions.
+rhd_safeEvent_manual 'yes'
+
 client_script "cl_main.lua"
 server_script 'sv_main.lua'
 
