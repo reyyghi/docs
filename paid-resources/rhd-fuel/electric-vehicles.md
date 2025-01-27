@@ -37,15 +37,7 @@ vehicleModels = {
 
 2. **Modify Values in `handling.meta`**
 
-> Next, you'll need to modify certain values in the **`handling.meta`** file to ensure the electric vehicles function correctly.
-
-* Change `fPetrolTankVolume`
-
-> Search for the `fPetrolTankVolume` entry and set its value to **0.0** because electric vehicles do not use petrol tanks.
-
-```xml
-<fPetrolTankVolume value="0.0" />
-```
+> Lastly, you'll need to modify certain values in the **`handling.meta`** file to ensure the electric vehicles function correctly.
 
 * Change `strHandlingFlags`
 
@@ -53,12 +45,4 @@ vehicleModels = {
 
 ```xml
 <strHandlingFlags value="1000" />
-```
-
-3. **Add Electric Flag in `vehicles.meta`**
-
-> Lastly, in the **`vehicles.meta`** file, you need to add the `FLAG_IS_ELECTRIC` flag to identify the vehicle as electric. Search for the specific vehicle entry and add the flag like this:
-
-```xml
-<flags>FLAG_AVERAGE_CAR FLAG_IS_ELECTRIC FLAG_HAS_INTERIOR_EXTRAS</flags>
 ```
