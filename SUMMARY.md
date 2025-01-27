@@ -6,6 +6,7 @@
   * [📄 Callback](paid-resources/rhd-safe-event/page.md)
   * [📄 Event](paid-resources/rhd-safe-event/event.md)
 * [⛽ RHD Fuel](paid-resources/rhd-fuel/README.md)
+  * [⚡ Electric Vehicles](paid-resources/rhd-fuel/electric-vehicles.md)
   * [📄 Client Functions](paid-resources/rhd-fuel/client-functions.md)
 * [💰 RHD Shop Robbery](paid-resources/rhd-shop-robbery.md)
 * [🍕 RHD Pizza Delivery](paid-resources/rhd-pizza-delivery.md)
