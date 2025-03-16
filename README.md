@@ -24,12 +24,6 @@ shared_scripts {
     'shared/main'
 }
 
---- This is an optional, the event name written here will not be obfuscated.
-safe_event_obfus_ignore {
-    'vehiclekeys:client:SetOwner',
-    'QBCore:Client:OnPlayerLoaded'
-}
-
 --- This is optional, use this if you don't want the module to automatically replace all event functions.
 rhd_safeEvent_manual 'yes'
 
