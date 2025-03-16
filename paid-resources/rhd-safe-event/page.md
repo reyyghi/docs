@@ -86,6 +86,8 @@ print(p1, p2, p3)
 callback.execute.sync(name, source, args)
 ```
 
+Example:
+
 <pre class="language-etlua"><code class="lang-etlua">local cbExecute = callback.execute.sync
 <strong>local p1, p2, p3 = cbExecute('rhd_testClient', source, 'RHD', 'TEAM')
 </strong>print(p1, p2, p3)
