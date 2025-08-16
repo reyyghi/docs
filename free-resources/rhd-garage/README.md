@@ -2,6 +2,7 @@
 description: >-
   This is an ESX and QBCore compatible garage script, made with love by the RHD
   team.
+hidden: true
 ---
 
 # 🅿️ RHD Garage

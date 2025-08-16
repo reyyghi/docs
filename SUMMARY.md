@@ -2,7 +2,9 @@
 
 ## 💵 Paid Resources
 
-* [🛡️ RHD Safe Event](README.md)
+* [🎯 RHD Interactions](README.md)
+  * [Client Functions](paid-resources/rhd-interactions/client-functions.md)
+* [🛡️ RHD Safe Event](<README (1).md>)
   * [📄 Callback](paid-resources/rhd-safe-event/page.md)
   * [📄 Event](paid-resources/rhd-safe-event/event.md)
 * [⛽ RHD Fuel](paid-resources/rhd-fuel/README.md)
