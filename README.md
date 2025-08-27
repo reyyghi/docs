@@ -1,7 +1,7 @@
 ---
 description: >-
-  Ini adalah system interaksi untuk FiveM yang memungkinkan kamu menambahkan
-  berbagai opsi interaksi, sepert:
+  This is an interaction system for FiveM that allows you to add various
+  interaction options, such as:
 hidden: true
 ---
 
@@ -13,17 +13,19 @@ hidden: true
 * Objects
 * Peds
 * Players
-* Coordinates (posisi tertentu di map)
+* Coordinates
 
-Dengan sistem ini, kamu bisa membuat menu interaksi yang muncul hanya ketika player berada di dekat entity/coords yang sesuai.
+With this system, you can create an interaction menu that appears only when the player is near the appropriate entity/coords.
 
-### Instalasi:
+### Installation:
 
-1. Letakkan resource ini di folder `resources/[rhd]/rhd_interactions`&#x20;
-2. Tambahkan ke `server.cfg`:&#x20;
+1. put this resource in a folder `resources/[rhd]/rhd_interact`&#x20;
+2. Add to `server.cfg`:&#x20;
 
-```cfg
-ensure rhd_interactions
+```lua
+ensure ox_lib
+ensure rhd_interact
 ```
 
-3. Resource siap digunakan.
+3. Resource is ready to use.
+

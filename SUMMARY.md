@@ -3,7 +3,9 @@
 ## 💵 Paid Resources
 
 * [🎯 RHD Interactions](README.md)
-  * [Client Functions](paid-resources/rhd-interactions/client-functions.md)
+  * [Interact Options](paid-resources/rhd-interactions/interact-options.md)
+  * [Client Exports](paid-resources/rhd-interactions/client-exports/README.md)
+    * [Model Interactions](paid-resources/rhd-interactions/client-exports/model-interactions.md)
 * [🛡️ RHD Safe Event](<README (1).md>)
   * [📄 Callback](paid-resources/rhd-safe-event/page.md)
   * [📄 Event](paid-resources/rhd-safe-event/event.md)
