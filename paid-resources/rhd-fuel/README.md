@@ -2,7 +2,9 @@
 
 ### Installation:
 
-1. Open the `config` folder and configure it to your liking.
+{% stepper %}
+{% step %}
+Open the `config` folder and configure it to your liking.
 
 {% tabs %}
 {% tab title="consumption.lua" %}
@@ -231,7 +233,11 @@ return {
 {% endtab %}
 {% endtabs %}
 
-1. Then, start in `server.cfg` like the code below:
+
+{% endstep %}
+
+{% step %}
+Then, start in `server.cfg` like the code below:
 
 ```lua
 ensure ox_lib
@@ -241,6 +247,8 @@ ensure ox_inventory
 ensure interact
 ensure rhd_fuel
 ```
+{% endstep %}
+{% endstepper %}
 
 ### Dependencies:
 

@@ -6,7 +6,9 @@ description: Very interesting vehicle nitrous script and very light when used
 
 ### Intstallation:
 
-1. Register nitrous items
+{% stepper %}
+{% step %}
+Register nitrous items
 
 {% tabs %}
 {% tab title="ox_inventory" %}
@@ -144,19 +146,27 @@ INSERT INTO `items` (name, label, weight) VALUES
 {% endtab %}
 {% endtabs %}
 
-2. Run nitrous SQL on your database server
 
-<figure><img src="../../../.gitbook/assets/ajg.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-2. Then, start in `server.cfg` like the code below:
+{% step %}
+Run nitrous SQL on your database server
+
+<figure><img src="../../.gitbook/assets/ajg.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+Then, start in `server.cfg` like the code below:
 
 ```lua
 ensure ox_lib
 ensure es_extended
 ensure rhd_nitrous
 ```
+{% endstep %}
+{% endstepper %}
 
 ### Dependencies:
 
-* [ox\_lib](https://github.com/overextended/ox\_lib/releases)
-* [ESX](https://github.com/esx-framework/esx\_core/tree/main/\[core]/es\_extended) or [QBCore](https://github.com/qbcore-framework/qb-core)
+* [ox\_lib](https://github.com/overextended/ox_lib/releases)
+* [ESX](https://github.com/esx-framework/esx_core/tree/main/\[core]/es_extended) or [QBCore](https://github.com/qbcore-framework/qb-core)
