@@ -2,7 +2,6 @@
 description: >-
   This is an interaction system for FiveM that allows you to add various
   interaction options, such as:
-hidden: true
 ---
 
 # 🎯 RHD Interactions
