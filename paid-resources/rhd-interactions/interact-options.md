@@ -3,20 +3,6 @@ description: >-
   All interact actions are formated as an array containing objects with the
   following properties.
 icon: gear
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: false
-  pagination:
-    visible: true
-  metadata:
-    visible: false
 ---
 
 # Interact Options
