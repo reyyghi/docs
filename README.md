@@ -18,13 +18,21 @@ With this system, you can create an interaction menu that appears only when the 
 
 ### Installation:
 
-1. put this resource in a folder `resources/[rhd]/rhd_interact`&#x20;
-2. Add to `server.cfg`:&#x20;
+{% stepper %}
+{% step %}
+Put this resource in a folder `resources/[rhd]/rhd_interact`&#x20;
+{% endstep %}
+
+{% step %}
+Add to `server.cfg`:&#x20;
 
 ```lua
 ensure ox_lib
 ensure rhd_interact
 ```
+{% endstep %}
 
-3. Resource is ready to use.
-
+{% step %}
+Resource is ready to use.
+{% endstep %}
+{% endstepper %}

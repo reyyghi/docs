@@ -1,6 +1,6 @@
 ---
 description: This is an export function to add and remove Model Interactions.
-icon: code
+icon: dropbox
 ---
 
 # Model Interactions
@@ -23,7 +23,7 @@ exports.rhd_interact:removeModel(model, name)
 
 * params:
   * model: `string | string[]`&#x20;
-  * name: `string | string[]` `option name`&#x20;
+  * name?: `string | string[]` `option name`&#x20;
 
 ### Example:
 
