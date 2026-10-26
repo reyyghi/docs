@@ -5,31 +5,30 @@ icon: map-pin
 
 # Coords Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addCoords(CoordsProps)
 ```
 
 * params:
-  * id?: `string`&#x20;
-  * coords: `vector3`&#x20;
-  * options: `InteractOptions[]`&#x20;
-* return: `string` `coordsId`&#x20;
+  * id?: `string`
+  * coords: `vector3`
+  * options: `InteractOptions[]`
+* return: `string` `coordsId`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeCoords(coordsId, optionName)
 ```
 
 * params:
-  * coordsId: `string`&#x20;
-  * optionName?: `string | string[]`&#x20;
+  * coordsId: `string`
+  * optionName?: `string | string[]`
 
-### Example:
+## Example```lua
 
-```lua
 -- Add Interact
 local id = exports.rhd_interact:addCoords({
     id = 'test_location_1',

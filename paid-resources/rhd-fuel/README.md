@@ -1,6 +1,10 @@
-# ⛽ RHD Fuel
+---
+icon: gas-pump
+---
 
-### Installation:
+# RHD Fuel
+
+## Installation
 
 {% stepper %}
 {% step %}
@@ -233,13 +237,13 @@ return {
 {% endtab %}
 {% endtabs %}
 
-
 {% endstep %}
 
 {% step %}
 Then, start in `server.cfg` like the code below:
 
-```lua
+{% code title="server.cfg" %}
+```cfg
 ensure ox_lib
 ensure es_extended
 
@@ -247,10 +251,11 @@ ensure ox_inventory
 ensure interact
 ensure rhd_fuel
 ```
+{% endcode %}
 {% endstep %}
 {% endstepper %}
 
-### Dependencies:
+## Dependencies
 
 * [ox\_lib](https://github.com/overextended/ox_lib/releases)
 * [ox\_inventory](https://github.com/overextended/ox_inventory/releases) or [qb-inventory](https://github.com/qbcore-framework/qb-inventory)

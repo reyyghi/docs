@@ -5,93 +5,91 @@ icon: code
 
 # Networked Entity Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addEntity(netId, options)
 ```
 
 * params:
-  * netId: `number | number[]`&#x20;
-  * options: `InteractOptions[]`&#x20;
+  * netId: `number | number[]`
+  * options: `InteractOptions[]`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeEntity(netId, optionName)
 ```
 
 * params:
-  * netId: `number | number[]`&#x20;
-  * optionName?: `string | string[]`&#x20;
+  * netId: `number | number[]`
+  * optionName?: `string | string[]`
 
-### Example:
+## Example
 
-*   #### Server Side
+{% tabs %}
+{% tab title="Server" %}
+```lua
+RegisterCommand('createEntity', function (source, args)
+    local model = joaat(args[1] or 'prop_dumpster_01a')
+    local playerPed = GetPlayerPed(source)
+    local coords = GetEntityCoords(playerPed)
 
+    local entity = CreateObjectNoOffset(model, coords.x + 2, coords.y, coords.z, true, false, false)
+    Wait(100)
 
+    if not DoesEntityExist(entity) then
+        print('Failed to create entity with model:', model)
+        return
+    end
 
-    ```lua
-    RegisterCommand('createEntity', function (source, args)
-        local model = joaat(args[1] or 'prop_dumpster_01a')
-        local playerPed = GetPlayerPed(source)
-        local coords = GetEntityCoords(playerPed)
+    local netId = NetworkGetNetworkIdFromEntity(entity)
 
-        local entity = CreateObjectNoOffset(model, coords.x + 2, coords.y, coords.z, true, false, false)
-        Wait(100)
+    local players = exports.rhd_fivem:getPlayersInScope(source)
+    if not players then return end
 
-        if not DoesEntityExist(entity) then
-            print('Failed to create entity with model:', model)
-            return
-        end
+    lib.triggerClientEvent('createInteract', players, netId)
+end, false)
+```
+{% endtab %}
 
-        local netId = NetworkGetNetworkIdFromEntity(entity)
+{% tab title="Client" %}
+```lua
+local created = {}
 
-        local players = exports.rhd_fivem:getPlayersInScope(source)
-        if not players then return end
+RegisterNetEvent('createInteract', function(netId)
+    if created[netId] then
+        return
+    end
 
-        lib.triggerClientEvent('createInteract', players, netId)
-    end, false)
-    ```
-
-
-
-*   #### Client Side 
-
-    ```lua
-    local created = {}
-
-    RegisterNetEvent('createInteract', function(netId)
-        if created[netId] then
-            return
-        end
-
-        exports.rhd_interact:addEntity(netId, {
-            {
-                name = 'move_object',
-                label = 'Move Object',
-                distance = 1.5,
-                pointDistance = 4.0,
-                offset = vec(0.0, 0.0, 1.0),
-                onSelect = function(data)
-                    local newCoords = GetEntityCoords(cache.ped)
-                    SetEntityCoords(data.entity, newCoords.x + 1, newCoords.y, newCoords.z, false, false, false, false)
-                    print('Moved entity to:', newCoords)
-                end
-            },
-            {
-                name = 'delete_cone',
-                label = 'Delete Cone',
-                distance = 1.5,
-                pointDistance = 2.0,
-                offset = vec(0.0, 1.0, 1.0),
-                onSelect = function(data)
-                    created[netId] = nil
-                    DeleteEntity(data.entity)
-                    exports.rhd_interact:removeEntity(netId)
-                    print('Deleted entity:', data.entity)
-                end
-            }
-        })
-    end)
-    ```
+    exports.rhd_interact:addEntity(netId, {
+        {
+            name = 'move_object',
+            label = 'Move Object',
+            distance = 1.5,
+            pointDistance = 4.0,
+            offset = vec(0.0, 0.0, 1.0),
+            onSelect = function(data)
+                local newCoords = GetEntityCoords(cache.ped)
+                SetEntityCoords(data.entity, newCoords.x + 1, newCoords.y, newCoords.z, false, false, false, false)
+                print('Moved entity to:', newCoords)
+            end
+        },
+        {
+            name = 'delete_cone',
+            label = 'Delete Cone',
+            distance = 1.5,
+            pointDistance = 2.0,
+            offset = vec(0.0, 1.0, 1.0),
+            onSelect = function(data)
+                created[netId] = nil
+                DeleteEntity(data.entity)
+                exports.rhd_interact:removeEntity(netId)
+                print('Deleted entity:', data.entity)
+            end
+        }
+    })
+end)
+```
+{% endtab %}
+{% endtabs %}

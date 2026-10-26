@@ -5,27 +5,26 @@ icon: boxes-stacked
 
 # Object Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addGlobalObject(options)
 ```
 
 * params:
-  * options: `InteractOptions[]`&#x20;
+  * options: `InteractOptions[]`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeGlobalObject(optionName)
 ```
 
 * params:
-  * optionName?: `string | string[]`&#x20;
+  * optionName?: `string | string[]`
 
-### Example:
+## Example```lua
 
-```lua
 -- Add Interact
 exports.rhd_interact:addGlobalObject({
     {

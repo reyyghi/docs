@@ -5,29 +5,28 @@ icon: code
 
 # Local Entity Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addLocalEntity(entity, options)
 ```
 
 * params:
-  * entity: `number | number[]`&#x20;
-  * options: `InteractOptions[]`&#x20;
+  * entity: `number | number[]`
+  * options: `InteractOptions[]`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeLocalEntity(entity, optionName)
 ```
 
 * params:
-  * entity: `number | number[]`&#x20;
-  * optionName?: `string | string[]`&#x20;
+  * entity: `number | number[]`
+  * optionName?: `string | string[]`
 
-### Example:
+## Example```lua
 
-```lua
 -- Add Interact
 local model = joaat('prop_bin_01a')
 local coords = cache.coords

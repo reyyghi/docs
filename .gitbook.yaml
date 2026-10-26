@@ -1,0 +1,12 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+# Old URLs that moved, so links on Tebex, Discord and in script configs keep working.
+redirects:
+  paid-resources/rhd-safe-event/page: paid-resources/rhd-safe-event/callback.md
+  free-resources/rhd-garage: paid-resources/rhd-garage/README.md
+  free-resources/rhd-garage/client-functions: paid-resources/rhd-garage/README.md
+  free-resources/rhd-garage/server-functions: paid-resources/rhd-garage/server-exports.md

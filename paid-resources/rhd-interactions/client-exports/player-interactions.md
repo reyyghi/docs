@@ -5,27 +5,26 @@ icon: user-group
 
 # Player Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addGlobalPlayer(options)
 ```
 
 * params:
-  * options: `InteractOptions[]`&#x20;
+  * options: `InteractOptions[]`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeGlobalPlayer(optionName)
 ```
 
 * params:
-  * optionName?: `string | string[]`&#x20;
+  * optionName?: `string | string[]`
 
-### Example:
+## Example```lua
 
-```lua
 -- Add Interact
 exports.rhd_interact:addGlobalPlayer({
     {

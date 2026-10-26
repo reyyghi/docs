@@ -2,15 +2,16 @@
 description: >-
   This is a trigger switching function, used to prevent cheaters from being able
   to execute events from the cheat executor.
+icon: shield-halved
 ---
 
-# 🛡️ RHD Safe Event
+# RHD Safe Event
 
 {% hint style="warning" %}
 Attention! If you use this, this module will automatically replace all the default trigger functions with trigger functions from the module
 {% endhint %}
 
-### Usage:
+## Usage
 
 * Add a module in fxmanifest resources that wants to use the function from rhd\_safeEvent, example like the code below:
 

@@ -1,0 +1,15 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+site:
+  title: RHD TEAM
+  structure:
+    # GitBook matches this space by its key from one sync to the next.
+    # Never change the key after the first sync: rename with `title`, move with `path`.
+    - type: space
+      key: rhd-docs
+      title: RHD Scripts
+      path: docs
+      default: true
+      content:
+        directory: ./
+        language: en

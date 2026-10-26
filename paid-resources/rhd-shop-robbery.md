@@ -1,10 +1,11 @@
 ---
 description: A simple store robbery script created by the RHD team.
+icon: sack-dollar
 ---
 
-# 💰 RHD Shop Robbery
+# RHD Shop Robbery
 
-### Intstallation:
+## Installation
 
 {% stepper %}
 {% step %}
@@ -14,16 +15,18 @@ Open the `config.lua` file and configure it to your liking.
 {% step %}
 Then, start in `server.cfg` like the code below:
 
-```lua
+{% code title="server.cfg" %}
+```cfg
 ensure ox_lib
 ensure es_extended
 ensure interact
 ensure rhd_shoprobbery
 ```
+{% endcode %}
 {% endstep %}
 {% endstepper %}
 
-### Dependencies:
+## Dependencies
 
 * [ox\_lib](https://github.com/overextended/ox_lib/releases)
 * [ESX](https://github.com/esx-framework/esx_core/tree/main/\[core]/es_extended) or [QBCore](https://github.com/qbcore-framework/qb-core)

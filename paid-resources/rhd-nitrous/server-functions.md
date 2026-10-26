@@ -1,6 +1,10 @@
-# 📄 Server Functions
+---
+icon: server
+---
 
-### install
+# Server Functions
+
+## install
 
 To add nitrous to a vehicle from another resource
 
@@ -8,14 +12,14 @@ To add nitrous to a vehicle from another resource
 exports.rhd_nitrous:install(source, netId, type)
 ```
 
-* source: `number`&#x20;
+* source: `number`
 * netId: `integer`
-* type: `number` `1 | 2 | 3`&#x20;
+* type: `number` `1 | 2 | 3`
   1. default colour
   2. blue colour
   3. red colour
 
-### setLevel
+## setLevel
 
 To adjust the nitrous level on a vehicle equipped with nitrous
 
@@ -24,10 +28,10 @@ exports.rhd_nitrous:setLevel(source, netId, level)
 ```
 
 * source: `number`
-* netId: `integer`&#x20;
-* level: `number`&#x20;
+* netId: `integer`
+* level: `number`
 
-### getLevel
+## getLevel
 
 To get the nitrous level on a vehicle that has been fitted with nitrous
 
@@ -35,4 +39,4 @@ To get the nitrous level on a vehicle that has been fitted with nitrous
 exports.rhd_nitrous:getLevel(netId)
 ```
 
-* netId: `integer`&#x20;
+* netId: `integer`

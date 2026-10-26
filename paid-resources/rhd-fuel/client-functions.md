@@ -1,18 +1,22 @@
-# 📄 Client Functions
+---
+icon: code
+---
 
-### Get Fuel
+# Client Functions
+
+## Get Fuel
 
 ```lua
 exports.rhd_fuel:GetFuel(vehicle)
 ```
 
-* vehicle: `integer`&#x20;
+* vehicle: `integer`
 
-### Set Fuel
+## Set Fuel
 
 ```lua
 exports.rhd_fuel:SetFuel(vehicle, level)
 ```
 
-* vehicle: `integer`&#x20;
+* vehicle: `integer`
 * level: `number`

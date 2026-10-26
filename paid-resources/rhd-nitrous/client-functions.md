@@ -1,6 +1,10 @@
-# 📄 Client Functions
+---
+icon: code
+---
 
-### isActive
+# Client Functions
+
+## isActive
 
 To check whether nitrous is active or not
 
@@ -8,7 +12,7 @@ To check whether nitrous is active or not
 exports.rhd_nitrous:isActive()
 ```
 
-### getLevel
+## getLevel
 
 To get the nitrous level on a vehicle that has been fitted with nitrous
 
@@ -16,4 +20,4 @@ To get the nitrous level on a vehicle that has been fitted with nitrous
 exports.rhd_nitrous:getLevel(vehicle)
 ```
 
-* vehicle: `integer`&#x20;
+* vehicle: `integer`

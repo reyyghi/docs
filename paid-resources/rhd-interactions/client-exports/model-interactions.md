@@ -5,29 +5,28 @@ icon: dropbox
 
 # Model Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addModel(model, options)
 ```
 
 * params:
-  * model: `string | string[]`&#x20;
-  * options: `InteractOptions[]`&#x20;
+  * model: `string | string[]`
+  * options: `InteractOptions[]`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeModel(model, name)
 ```
 
 * params:
-  * model: `string | string[]`&#x20;
-  * name?: `string | string[]` `option name`&#x20;
+  * model: `string | string[]`
+  * name?: `string | string[]` `option name`
 
-### Example:
+## Example```lua
 
-```lua
 -- Add Interact
 exports.rhd_interact:addModel('prop_dumpster_01a', {
     {

@@ -1,10 +1,11 @@
 ---
 description: Very interesting vehicle nitrous script and very light when used
+icon: rocket
 ---
 
-# 🚀 RHD Nitrous
+# RHD Nitrous
 
-### Intstallation:
+## Installation
 
 {% stepper %}
 {% step %}
@@ -146,7 +147,6 @@ INSERT INTO `items` (name, label, weight) VALUES
 {% endtab %}
 {% endtabs %}
 
-
 {% endstep %}
 
 {% step %}
@@ -158,15 +158,17 @@ Run nitrous SQL on your database server
 {% step %}
 Then, start in `server.cfg` like the code below:
 
-```lua
+{% code title="server.cfg" %}
+```cfg
 ensure ox_lib
 ensure es_extended
 ensure rhd_nitrous
 ```
+{% endcode %}
 {% endstep %}
 {% endstepper %}
 
-### Dependencies:
+## Dependencies
 
 * [ox\_lib](https://github.com/overextended/ox_lib/releases)
 * [ESX](https://github.com/esx-framework/esx_core/tree/main/\[core]/es_extended) or [QBCore](https://github.com/qbcore-framework/qb-core)

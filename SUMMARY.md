@@ -1,8 +1,21 @@
 # Table of contents
 
-## 💵 Paid Resources
+* [Welcome](README.md)
 
-* [🎯 RHD Interactions](README.md)
+## Paid Scripts
+
+* [Overview](paid-resources/README.md)
+* [RHD Garage](paid-resources/rhd-garage/README.md)
+  * [Installation](paid-resources/rhd-garage/installation.md)
+  * [Configuration](paid-resources/rhd-garage/configuration.md)
+  * [Garages](paid-resources/rhd-garage/garages.md)
+  * [Interiors](paid-resources/rhd-garage/interiors.md)
+  * [Admin Panel](paid-resources/rhd-garage/admin-panel.md)
+  * [Vehicle Images](paid-resources/rhd-garage/vehicle-images.md)
+  * [Bridges](paid-resources/rhd-garage/bridges.md)
+  * [Server Exports](paid-resources/rhd-garage/server-exports.md)
+  * [Troubleshooting](paid-resources/rhd-garage/troubleshooting.md)
+* [RHD Interactions](paid-resources/rhd-interactions/README.md)
   * [Interact Options](paid-resources/rhd-interactions/interact-options.md)
   * [Client Exports](paid-resources/rhd-interactions/client-exports/README.md)
     * [Model Interactions](paid-resources/rhd-interactions/client-exports/model-interactions.md)
@@ -13,22 +26,20 @@
     * [Local Entity Interactions](paid-resources/rhd-interactions/client-exports/local-entity-interactions.md)
     * [Networked Entity Interactions](paid-resources/rhd-interactions/client-exports/networked-entity-interactions.md)
     * [Coords Interactions](paid-resources/rhd-interactions/client-exports/coords-interactions.md)
-* [🛡️ RHD Safe Event](<README (1).md>)
-  * [📄 Callback](paid-resources/rhd-safe-event/page.md)
-  * [📄 Event](paid-resources/rhd-safe-event/event.md)
-* [⛽ RHD Fuel](paid-resources/rhd-fuel/README.md)
-  * [⚡ Electric Vehicles](paid-resources/rhd-fuel/electric-vehicles.md)
-  * [📄 Client Functions](paid-resources/rhd-fuel/client-functions.md)
-* [💰 RHD Shop Robbery](paid-resources/rhd-shop-robbery.md)
-* [🍕 RHD Pizza Delivery](paid-resources/rhd-pizza-delivery.md)
-* [🚀 RHD Nitrous](paid-resources/rhd-nitrous/README.md)
-  * [📄 Server Functions](paid-resources/rhd-nitrous/server-functions.md)
-  * [📄 Client Functions](paid-resources/rhd-nitrous/client-functions.md)
-* [🛞 RHD Wheel Fitment Adjuster](paid-resources/rhd-wheel-fitment-adjuster/README.md)
-  * [📄 Server Functions](paid-resources/rhd-wheel-fitment-adjuster/server-functions.md)
+* [RHD Safe Event](paid-resources/rhd-safe-event/README.md)
+  * [Callback](paid-resources/rhd-safe-event/callback.md)
+  * [Event](paid-resources/rhd-safe-event/event.md)
+* [RHD Fuel](paid-resources/rhd-fuel/README.md)
+  * [Electric Vehicles](paid-resources/rhd-fuel/electric-vehicles.md)
+  * [Client Functions](paid-resources/rhd-fuel/client-functions.md)
+* [RHD Nitrous](paid-resources/rhd-nitrous/README.md)
+  * [Server Functions](paid-resources/rhd-nitrous/server-functions.md)
+  * [Client Functions](paid-resources/rhd-nitrous/client-functions.md)
+* [RHD Wheel Fitment Adjuster](paid-resources/rhd-wheel-fitment-adjuster/README.md)
+  * [Server Functions](paid-resources/rhd-wheel-fitment-adjuster/server-functions.md)
+* [RHD Shop Robbery](paid-resources/rhd-shop-robbery.md)
+* [RHD Pizza Delivery](paid-resources/rhd-pizza-delivery.md)
 
-## 💚 Free Resources
+## Free Scripts
 
-* [🅿️ RHD Garage](free-resources/rhd-garage/README.md)
-  * [📄 Client Functions](free-resources/rhd-garage/client-functions.md)
-  * [📄 Server Functions](free-resources/rhd-garage/server-functions.md)
+* [Overview](free-resources/README.md)

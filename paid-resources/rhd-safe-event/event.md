@@ -1,38 +1,42 @@
-# 📄 Event
+---
+icon: bolt
+---
 
-### RegisterNetEvent
+# Event
+
+## RegisterNetEvent
 
 ```lua
 event.new(name, cb)
 ```
 
-* name: `string`&#x20;
-* cb: `function`&#x20;
+* name: `string`
+* cb: `function`
 
-### TriggerEvent
+## TriggerEvent
 
 ```lua
 event.trigger(name, args)
 ```
 
-* name: `string`&#x20;
-* args?: `any`&#x20;
+* name: `string`
+* args?: `any`
 
-### TriggerClientEvent
+## TriggerClientEvent
 
 ```lua
 event.triggerClient(name, source, args)
 ```
 
-* name: `string`&#x20;
-* source: `number` | `number[]`&#x20;
-* args?: `any`&#x20;
+* name: `string`
+* source: `number` | `number[]`
+* args?: `any`
 
-### TriggerServerEvent
+## TriggerServerEvent
 
 ```lua
 event.triggerServer(name, args)
 ```
 
-* name: `string`&#x20;
-* args?: `any`&#x20;
+* name: `string`
+* args?: `any`

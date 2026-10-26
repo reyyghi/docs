@@ -5,27 +5,26 @@ icon: user
 
 # Ped Interactions
 
-### Add Interactions
+## Add Interactions
 
 ```lua
 exports.rhd_interact:addGlobalPed(options)
 ```
 
 * params:
-  * options: `InteractOptions[]`&#x20;
+  * options: `InteractOptions[]`
 
-### Remove Interactions
+## Remove Interactions
 
 ```lua
 exports.rhd_interact:removeGlobalPed(optionName)
 ```
 
 * params:
-  * optionName?: `string | string[]`&#x20;
+  * optionName?: `string | string[]`
 
-### Example:
+## Example```lua
 
-```lua
 -- Add Interact
 exports.rhd_interact:addGlobalPed({
     {
